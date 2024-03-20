@@ -5,7 +5,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/user\.chinayanghe\.com/gateway/api-integral-mall/commodity(getInventoryById|/getById) url script-response-body https://raw.githubusercontent.com/mxsolid/MyApplication3/master/MyScript.js
+^https?:\/\/user\.chinayanghe\.com/gateway/api-integral-mall/commodity(/getInventoryById|/getById) url script-response-body https://raw.githubusercontent.com/mxsolid/MyApplication3/master/MyScript.js
 
 [mitm]
 hostname = user.chinayanghe.com
